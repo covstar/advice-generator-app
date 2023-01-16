@@ -563,42 +563,6 @@ video {
   margin-bottom: -3rem;
 }
 
-.mt-8{
-  margin-top: 2rem;
-}
-
-.mt-10\%{
-  margin-top: 10%;
-}
-
-.mt-10{
-  margin-top: 2.5rem;
-}
-
-.mt-15\%{
-  margin-top: 15%;
-}
-
-.mt-20\%{
-  margin-top: 20%;
-}
-
-.mt-20{
-  margin-top: 5rem;
-}
-
-.mb-0{
-  margin-bottom: 0px;
-}
-
-.mt-auto{
-  margin-top: auto;
-}
-
-.mt-50\%{
-  margin-top: 50%;
-}
-
 .mt-60{
   margin-top: 15rem;
 }
@@ -658,36 +622,13 @@ video {
   padding: 1.5rem;
 }
 
-.py-20\%{
-  padding-top: 20%;
-  padding-bottom: 20%;
-}
-
-.py-20{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.py-10\%{
-  padding-top: 10%;
-  padding-bottom: 10%;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .pt-4{
   padding-top: 1rem;
-}
-
-.pt-20{
-  padding-top: 5rem;
-}
-
-.pt-20\%{
-  padding-top: 20%;
 }
 
 .text-center{
@@ -725,34 +666,25 @@ video {
   color: hsl(193 38% 86% / var(--tw-text-opacity));
 }
 
-.text-orange-600{
-  --tw-text-opacity: 1;
-  color: rgb(234 88 12 / var(--tw-text-opacity));
-}
-
 @media (max-width: 720px){
+  .sm\:mt-30\%{
+    margin-top: 30%;
+  }
+
+  .sm\:mt-40\%{
+    margin-top: 40%;
+  }
+
+  .sm\:mt-40{
+    margin-top: 10rem;
+  }
+
+  .sm\:mt-50\%{
+    margin-top: 50%;
+  }
+
   .sm\:hidden{
     display: none;
-  }
-
-  .sm\:w-30\%{
-    width: 30%;
-  }
-
-  .sm\:w-50\%{
-    width: 50%;
-  }
-
-  .sm\:w-60\%{
-    width: 60%;
-  }
-
-  .sm\:w-60{
-    width: 15rem;
-  }
-
-  .sm\:w-70\%{
-    width: 70%;
   }
 
   .sm\:w-80\%{
@@ -763,58 +695,15 @@ video {
     width: 20rem;
   }
 
-  .sm\:py-5\%{
-    padding-top: 5%;
-    padding-bottom: 5%;
-  }
-
-  .sm\:py-5{
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
-  .sm\:py-10\%{
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-
-  .sm\:py-10{
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .sm\:py-50\%{
-    padding-top: 50%;
-    padding-bottom: 50%;
-  }
-
-  .sm\:py-40\%{
-    padding-top: 40%;
-    padding-bottom: 40%;
-  }
-
-  .sm\:py-40{
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-  }
-
-  .sm\:py-30\%{
-    padding-top: 30%;
-    padding-bottom: 30%;
+  .sm\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
 @media (min-width: 722px){
   .md\:hidden{
     display: none;
-  }
-
-  .md\:w-40\%{
-    width: 40%;
-  }
-
-  .md\:w-40{
-    width: 10rem;
   }
 
   .md\:w-45\%{
@@ -829,11 +718,6 @@ video {
   .md\:py-10{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
-
-  .md\:py-15\%{
-    padding-top: 15%;
-    padding-bottom: 15%;
   }
 
   .md\:text-2xl{
